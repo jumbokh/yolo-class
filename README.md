@@ -8,7 +8,7 @@
 ## YOLO archi
 * ![Archi](https://github.com/jumbokh/yolo-class/blob/master/images/YOLO-Archi.png)
 ##
-## 硬體需求
+## 硬體需求及檔案
 <pre>
 Simultaneous detection and classification of 9000 objects:
 
