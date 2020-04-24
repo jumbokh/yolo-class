@@ -1,5 +1,5 @@
 # yolo-project: 
-## Project Schedul: 4/27~5/10
+## Project Schedule: 4/27~5/10
 ## Objective: 
 * 就是要用v3架構，因為他的架構比v2快，但是v3原始僅能辨識80種物品，而v2架構下有一個yolo9000，可辨識9000種物品，但是跟v3架構不同
 * 需求就是用v3架構，載入的是9000的權重跟類別名稱
