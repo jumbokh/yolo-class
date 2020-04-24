@@ -32,9 +32,12 @@ inet9k.map - map 200 categories from ImageNet to WordTree 9k.tree: https://raw.g
 * [darknet site](https://github.com/pjreddie/darknet)
 * [yolo9000.weights](http://pjreddie.com/media/files/yolo9000.weights)
 ### 參考連結
+* [目标检测|YOLOv2原理与实现(附YOLOv3)](https://zhuanlan.zhihu.com/p/35325884)
 * [深度學習-物件偵測YOLOv1、YOLOv2和YOLOv3 cfg 檔解讀(一)](https://medium.com/@chih.sheng.huang821/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-%E7%89%A9%E4%BB%B6%E5%81%B5%E6%B8%ACyolov1-yolov2%E5%92%8Cyolov3-cfg-%E6%AA%94%E8%A7%A3%E8%AE%80-75793cd61a01) 
 * [Using yolo v3 to detect direction of an object](https://github.com/jaskarannagi19/yolov3)
 * [Is it possible to use yolo3 with yolo9000 weights for more classes?](https://stackoverflow.com/questions/57853707/is-it-possible-to-use-yolo3-with-yolo9000-weights-for-more-classes)
+* [yoloV3的驚豔結果–比較yoloV2](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/625318/)
+* [Yolo：基於深度學習的物件偵測 (含YoloV3)](https://mropengate.blogspot.com/2018/06/yolo-yolov3.html)
 ##
 ### 文件
 * [YOLOv3.pdf](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
