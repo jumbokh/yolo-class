@@ -41,3 +41,4 @@ inet9k.map - map 200 categories from ImageNet to WordTree 9k.tree: https://raw.g
 ##
 ### 文件
 * [YOLOv3.pdf](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
+* [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
