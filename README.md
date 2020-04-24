@@ -5,6 +5,8 @@
 * 需求就是用v3架構，載入的是9000的權重跟類別名稱
 * 就是可以用yolov3模型，辨識9K種物品
 ##
+## YOLO archi
+* ![Archi](https://github.com/jumbokh/yolo-class/blob/master/images/YOLO-Archi.png)
 ## weights:
 * [darknet site](https://github.com/pjreddie/darknet)
 * [yolo9000.weights](http://pjreddie.com/media/files/yolo9000.weights)
