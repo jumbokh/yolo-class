@@ -10,11 +10,12 @@ yolo-
 * [image net](http://image-net.org/download-images)
 ##
 ### Using yolov2 predict
-*
+* ./darknet detector test cfg/coco.data cfg/yolov2.cfg w/yolov2.weights data/dog.jpg
 * ![dog](https://github.com/jumbokh/yolo-class/blob/master/images/predictions.jpg)
 * ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov2-kite.jpg)
 ##
 ### Using yolov3 predict
+* ./darknet detector test cfg/coco.data cfg/yolov3.cfg w/yolov3.weights data/kite.jpg
 * ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov3-kite.jpg)
 ### VOC Train
 * [Training YOLO on VOC](https://pjreddie.com/darknet/yolo/)
