@@ -12,12 +12,38 @@ yolo-
 * [image net](http://image-net.org/download-images)
 ##
 ### Using yolov2 predict
-* ./darknet detector test cfg/coco.data cfg/yolov2.cfg w/yolov2.weights data/dog.jpg
+* ./darknet-gpu detector test cfg/coco.data cfg/yolov2.cfg w/yolov2.weights data/dog.jpg)
+<pre>
+mask_scale: Using default '1.000000'
+Loading weights from w/yolov2.weights...Done!
+data/kite.jpg: Predicted in 0.137217 seconds.
+kite: 80%
+kite: 67%
+person: 74%
+person: 67%
+</pre>
 * ![dog](https://github.com/jumbokh/yolo-class/blob/master/images/predictions.jpg)
 * ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov2-kite.jpg)
 ##
 ### Using yolov3 predict
-* ./darknet detector test cfg/coco.data cfg/yolov3.cfg w/yolov3.weights data/kite.jpg
+* ./darknet-gpu detector test cfg/coco.data cfg/yolov3.cfg w/yolov3.weights data/kite.jpg
+<pre>
+Loading weights from w/yolov3.weights...Done!
+data/kite.jpg: Predicted in 0.166759 seconds.
+kite: 99%
+kite: 84%
+kite: 80%
+kite: 73%
+person: 100%
+person: 100%
+person: 97%
+person: 96%
+person: 95%
+person: 91%
+person: 88%
+person: 85%
+person: 52%
+</pre>
 * ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov3-kite.jpg)
 ### VOC Train
 * [Training YOLO on VOC](https://pjreddie.com/darknet/yolo/)
