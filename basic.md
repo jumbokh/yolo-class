@@ -48,3 +48,4 @@ ls
 #### Train The Model
 * mkdir ~/yolo/backup
 * ./darknet detector train cfg/voc.data cfg/yolov3-voc.cfg darknet53.conv.74
+##
