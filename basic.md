@@ -9,6 +9,9 @@ yolo-
 ## image net download
 * [image net](http://image-net.org/download-images)
 ##
+### Using yolov2 predict
+*
+* ![dog](https://github.com/jumbokh/yolo-class/blob/master/images/predictions.jpg)
 ### VOC Train
 * [Training YOLO on VOC](https://pjreddie.com/darknet/yolo/)
 * [VOC paper](https://github.com/jumbokh/yolo-class/blob/master/doc/ijcv_voc09.pdf)
