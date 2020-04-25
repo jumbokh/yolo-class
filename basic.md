@@ -13,6 +13,9 @@ yolo-
 *
 * ![dog](https://github.com/jumbokh/yolo-class/blob/master/images/predictions.jpg)
 * ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov2-kite.jpg)
+##
+### Using yolov3 predict
+* ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov3-kite.jpg)
 ### VOC Train
 * [Training YOLO on VOC](https://pjreddie.com/darknet/yolo/)
 * [VOC paper](https://github.com/jumbokh/yolo-class/blob/master/doc/ijcv_voc09.pdf)
