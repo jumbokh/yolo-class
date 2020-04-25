@@ -83,5 +83,6 @@ ls
 * wget https://pjreddie.com/media/files/darknet53.conv.74
 #### Train The Model
 * mkdir ~/yolo/backup
-* ./darknet detector train cfg/voc.data cfg/yolov3-voc.cfg darknet53.conv.74
+* ./darknet detector train cfg/voc.data cfg/yolov3-voc.cfg w/darknet53.conv.74
+* ./darknet detector train cfg/coco.data cfg/yolov3.cfg backup/yolov3.backup -gpus 0,1,2,3
 ##
