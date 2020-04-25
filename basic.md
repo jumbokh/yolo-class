@@ -12,7 +12,7 @@ yolo-
 * [image net](http://image-net.org/download-images)
 ##
 ### Using yolov2 predict
-* ./darknet-gpu detector test cfg/coco.data cfg/yolov2.cfg w/yolov2.weights data/dog.jpg)
+* ./darknet-gpu detector test cfg/coco.data cfg/yolov2.cfg w/yolov2.weights data/dog.jpg
 <pre>
 mask_scale: Using default '1.000000'
 Loading weights from w/yolov2.weights...Done!
