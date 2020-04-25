@@ -32,6 +32,7 @@ Keras==2.3.1
 * install cuda driver for ubuntu 18.04 [check yuour version](https://blog.csdn.net/ZJU_QZH/article/details/85062258)
 * install for ubuntu procedure
 * [**Ubuntu 16.04 安裝CUDA 10.0 + cuDNN 7.3](https://medium.com/@zihansyu/ubuntu-16-04-%E5%AE%89%E8%A3%9Dcuda-10-0-cudnn-7-3-8254cb642e70)
+* [cuDNN Download](https://developer.nvidia.com/rdp/cudnn-download)
 <pre>
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
 sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
