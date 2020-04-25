@@ -28,6 +28,7 @@ Keras==2.3.1
 </pre>
 ##
 ### install cuDNN
+* [NVIDIA](https://developer.nvidia.com/cuda-downloads)
 * install cuda driver for ubuntu 18.04 [check yuour version](https://blog.csdn.net/ZJU_QZH/article/details/85062258)
 * install for ubuntu procedure
 <pre>
