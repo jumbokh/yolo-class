@@ -42,6 +42,8 @@ inet9k.map - map 200 categories from ImageNet to WordTree 9k.tree: https://raw.g
 * [yoloV3的驚豔結果–比較yoloV2](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/625318/)
 * [Yolo：基於深度學習的物件偵測 (含YoloV3)](https://mropengate.blogspot.com/2018/06/yolo-yolov3.html)
 ##
+### 官網
+* [Darknet 官網](https://pjreddie.com/darknet/yolo/)
 ### 文件
 * [YOLOv3.pdf](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 * [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
