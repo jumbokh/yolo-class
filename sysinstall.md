@@ -40,6 +40,20 @@ sudo apt-key add /var/cuda-repo-10-2-local-10.2.89-440.33.01/7fa2af80.pub
 sudo apt-get update
 sudo apt-get -y install cuda
 </pre>
+##
+### recompile darknet to GPU version
+* [解决nvcc找不到的问题](https://blog.csdn.net/rtygbwwwerr/article/details/73656876)
+<pre>
+1.使用sudo apt-get autoremove nvidia-cuda-toolkit 卸载7.5版本
+
+2.查看/usr/local/cuda/bin下是否有nvcc可执行程序，如果没有说明cuda没有正常安装，需要重新安装，如果有，进入下一步
+
+3.添加环境变量，打开~/.bashrc ，添加环境变量export PATH=$PATH:/usr/local/cuda/bin
+
+4.再在terminal中输入nvcc --version可以看到已经可以显示为8.0版本了
+
+原文链接：https://blog.csdn.net/rtygbwwwerr/java/article/details/73656876
+</pre>
 ## 參考
 [darkflow test github](https://github.com/inhail/darkflow)
          
