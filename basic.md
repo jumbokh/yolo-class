@@ -86,7 +86,7 @@ ls
 * ./darknet detector train cfg/voc.data cfg/yolov3-voc.cfg w/darknet53.conv.74
 * ./darknet detector train cfg/coco.data cfg/yolov3.cfg backup/yolov3.backup -i 0
 ##
-#### Screen for GPU monitor: 
+#### Screen for GPU monitor:  nvidia-smi -l
 * ![running darknet](https://github.com/jumbokh/yolo-class/blob/master/images/gpu0.jpg)
 ### 文件
 * [NVIDIA - Deep Learning SDK Documentation](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.html)
