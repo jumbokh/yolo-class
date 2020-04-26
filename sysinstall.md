@@ -43,7 +43,24 @@ sudo apt-get update
 sudo apt-get -y install cuda
 </pre>
 ##
+### Installing Darknet
+* update ~/.bashrc, 在檔案最末一行, 添加兩行
+</pre>
+export PATH=/usr/local/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64:/usr/local/cuda/64:/usr/local/lib:$LD_LIBRARY_PATH
+</pre>
+* $ source ~/.bashrc
+* [Installing Darknet](https://pjreddie.com/darknet/install/#cuda)
+* 修改 Darknet 的 Makefile
+<pre>
+GPU=1
+CUDNN=1
+OPENCV=1
+OPENMP=0
+DEBUG=0
+</pre>
 ### recompile darknet to GPU version
+* ./darknet imtest data/eagle.jpg
 * [解决nvcc找不到的问题](https://blog.csdn.net/rtygbwwwerr/article/details/73656876)
 <pre>
 1.使用sudo apt-get autoremove nvidia-cuda-toolkit 卸载7.5版本
