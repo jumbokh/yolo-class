@@ -65,6 +65,7 @@ subdivisions=8
      * ./darknet detector train cfg/coco.data cfg/yolov3.cfg backup/yolov3.backup -gpus 0,1,2,3
  ##
  #### The files need for train YOLO9000
+ * ![y9k](https://github.com/jumbokh/yolo-class/blob/master/images/y9kfiles.jpg)
  <pre>
  
  </pre>
