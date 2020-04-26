@@ -84,7 +84,7 @@ ls
 #### Train The Model
 * mkdir ~/yolo/backup
 * ./darknet detector train cfg/voc.data cfg/yolov3-voc.cfg w/darknet53.conv.74
-* ./darknet detector train cfg/coco.data cfg/yolov3.cfg backup/yolov3.backup -gpus 0,1,2,3
+* ./darknet detector train cfg/coco.data cfg/yolov3.cfg backup/yolov3.backup -i 0
 ##
 ### 文件
 * [NVIDIA - Deep Learning SDK Documentation](https://docs.nvidia.com/deeplearning/sdk/tensorrt-developer-guide/index.html)
