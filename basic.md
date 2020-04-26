@@ -86,6 +86,41 @@ ls
 * ./darknet detector train cfg/voc.data cfg/yolov3-voc.cfg w/darknet53.conv.74
 * ./darknet detector train cfg/coco.data cfg/yolov3.cfg backup/yolov3.backup -i 0
 ##
+#### Validate the weights
+<pre>
+在訓練期間，您會看到各種錯誤指示，並且當不再減少0.XXXXXXX avg時，您應該停止操作：
+
+區域平均IOU：0.798363，類：0.893232，對象：0.700808，無對象：0.004567，平均調用率：1.000000，計數：8區域平均IOU：0.800677，類：0.892181，對象：0.701590，無對象：0.004574，平均調用率：1.000000 ，數：8
+
+9002：0.211667，0.060730 平均，0.001000速率，3.868000秒，576128圖像加載：0.000000秒
+
+9002-迭代編號（批處理數量）
+0.060730平均 -平均損失（錯誤）- 越低越好
+當您發現平均損失0.xxxxxx平均不再在許多次迭代中減少時，您應該停止訓練。
+
+訓練停止後，您應該.weights從中提取一些最後的文件，darknet\build\darknet\x64\backup並從中選擇最好的文件：
+
+例如，您在9000次迭代後停止了訓練，但最佳結果可以給出以前的權重之一（7000、8000、9000）。可能由於過度擬合而發生。過度擬合 -這種情況是您可以從訓練數據集中檢測圖像上的對象，但無法檢測其他圖像上的對象。您應該從Early Stopping Point獲得權重：
+</pre>
+* ![Early Stoping](https://hsto.org/files/5dc/7ae/7fa/5dc7ae7fad9d4e3eb3a484c58bfc1ff5.png)
+<pre>
+2.1。首先，obj.data您必須在文件中指定驗證數據集的路徑valid = valid.txt（格式valid.txt為中的train.txt），如果您沒有驗證圖片，則只需複製data\train.txt到即可data\valid.txt。
+
+2.2如果在9000次迭代後停止訓練，要驗證以前的權重，請使用以下命令：
+
+（如果您使用另一個GitHub存儲庫，請使用darknet.exe detector recall...而不是darknet.exe detector map...）
+
+darknet.exe detector recall data/obj.data yolo-obj.cfg backup\yolo-obj_7000.weights
+darknet.exe detector recall data/obj.data yolo-obj.cfg backup\yolo-obj_8000.weights
+darknet.exe detector recall data/obj.data yolo-obj.cfg backup\yolo-obj_9000.weights
+每個權重（7000、8000、9000）的comapre最後輸出線：
+
+選擇具有最高 IoU（聯合的相交）和mAP（平均平均精度）的權重文件
+
+例如，較大的IOU會賦予權重yolo-obj_8000.weights-然後使用此權重進行檢測。
+
+自定義對象檢測的示例： darknet.exe detector test data/obj.data yolo-obj.cfg yolo-obj_8000.weights
+</pre>
 #### Screen for GPU monitor:  nvidia-smi -l
 * ![running darknet](https://github.com/jumbokh/yolo-class/blob/master/images/gpu0.jpg)
 ### 文件
