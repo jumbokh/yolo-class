@@ -44,6 +44,7 @@ sudo apt-get -y install cuda
 </pre>
 ##
 ### Installing Darknet
+* 詳見：[Installing Darknet](https://pjreddie.com/darknet/install/#cuda)
 * update ~/.bashrc, 在檔案最末一行, 添加兩行
 </pre>
 export PATH=/usr/local/cuda/bin:$PATH
