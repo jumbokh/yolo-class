@@ -46,6 +46,16 @@ person: 52%
 </pre>
 * ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov3-kite.jpg)
 ##
+### Using yolo9000 predict
+* ./darknet-gpu -i 0 detector test cfg/combine9k.data cfg/yolo9000.cfg w/yolo9000.weights data/kite.jpg
+<pre>
+Loading weights from w/yolo9000.weights...Done!
+data/kite.jpg: Predicted in 0.035698 seconds.
+worker: 52%
+person: 58%
+</pre>
+* ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolo9k-kite.jpg)
+##
 * ./darknet detector test cfg/coco.data cfg/yolov3.cfg ~/yolo/w/yolov3.weights data/horses.jpg -i 0
 <pre>
 Loading weights from /home/jumbo/yolo/w/yolov3.weights...Done!
