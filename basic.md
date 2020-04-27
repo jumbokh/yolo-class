@@ -55,7 +55,7 @@ horse: 100%
 horse: 96%
 horse: 96%
 </pre>
-* [horse yolo9v3](images/horse-v3.jpg)
+* ![horse yolov3](https://github.com/jumbokh/yolo-class/blob/master/images/horse-v3.jpgg)
 ### VOC Train
 * [Training YOLO on VOC](https://pjreddie.com/darknet/yolo/)
 * [VOC paper](https://github.com/jumbokh/yolo-class/blob/master/doc/ijcv_voc09.pdf)
