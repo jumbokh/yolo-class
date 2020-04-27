@@ -45,6 +45,17 @@ person: 85%
 person: 52%
 </pre>
 * ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov3-kite.jpg)
+##
+* ./darknet detector test cfg/coco.data cfg/yolov3.cfg ~/yolo/w/yolov3.weights data/horses.jpg -i 0
+<pre>
+Loading weights from /home/jumbo/yolo/w/yolov3.weights...Done!
+data/horses.jpg: Predicted in 0.052223 seconds.
+horse: 100%
+horse: 100%
+horse: 96%
+horse: 96%
+</pre>
+* [horse yolo9v3](images/horse-v3.jpg)
 ### VOC Train
 * [Training YOLO on VOC](https://pjreddie.com/darknet/yolo/)
 * [VOC paper](https://github.com/jumbokh/yolo-class/blob/master/doc/ijcv_voc09.pdf)
