@@ -66,6 +66,19 @@ horse: 96%
 horse: 96%
 </pre>
 * ![horse yolov3](https://github.com/jumbokh/yolo-class/blob/master/images/horse-v3.jpg)
+### current combine.data configuration
+<pre>
+classes= 9418
+#train  = /home/pjreddie/data/coco/trainvalno5k.txt
+train  = data/combine9k.train.list
+valid  = /home/pjreddie/data/imagenet/det.val.files
+labels = data/9k.labels
+names  = data/9k.names
+backup = backup/
+map = data/inet9k.map
+eval = imagenet
+results = results
+</pre>
 ##
 *  ./darknet detector test cfg/combine9k.data cfg/yolo9000.cfg w/yolo9000.weights data/horses.jpg -i 0
 <pre>
