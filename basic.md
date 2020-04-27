@@ -65,6 +65,15 @@ horse: 84%
 even-toed ungulate: 72%
 </pre>
 * ![9k horse](https://github.com/jumbokh/yolo-class/blob/master/images/horse-9k.jpg)
+##
+### Recompile darknet wo GPU CUDNN OPENCV
+*  ./darknet detector test cfg/combine9k.data cfg/yolo9000.cfg w/yolo9000.weights data/horses.jpg
+<pre>
+data/horses.jpg: Predicted in 4.549577 seconds.
+Shetland pony: 84%
+Aberdeen Angus: 72%
+</pre>
+* ![9k horse](https://github.com/jumbokh/yolo-class/blob/master/images/horse-n9k.jpg)
 ### VOC Train
 * [Training YOLO on VOC](https://pjreddie.com/darknet/yolo/)
 * [VOC paper](https://github.com/jumbokh/yolo-class/blob/master/doc/ijcv_voc09.pdf)
