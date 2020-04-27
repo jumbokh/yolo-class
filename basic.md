@@ -56,6 +56,15 @@ horse: 96%
 horse: 96%
 </pre>
 * ![horse yolov3](https://github.com/jumbokh/yolo-class/blob/master/images/horse-v3.jpg)
+##
+*  ./darknet detector test cfg/combine9k.data cfg/yolo9000.cfg w/yolo9000.weights data/horses.jpg -i 0
+<pre>
+Loading weights from w/yolo9000.weights...Done!
+data/horses.jpg: Predicted in 0.035390 seconds.
+horse: 84%
+even-toed ungulate: 72%
+</pre>
+* ![9k horse](https://github.com/jumbokh/yolo-class/blob/master/images/horse-9k.jpg)
 ### VOC Train
 * [Training YOLO on VOC](https://pjreddie.com/darknet/yolo/)
 * [VOC paper](https://github.com/jumbokh/yolo-class/blob/master/doc/ijcv_voc09.pdf)
