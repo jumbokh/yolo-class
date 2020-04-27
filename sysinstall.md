@@ -42,6 +42,8 @@ sudo apt-key add /var/cuda-repo-10-2-local-10.2.89-440.33.01/7fa2af80.pub
 sudo apt-get update
 sudo apt-get -y install cuda
 </pre>
+### Check install 
+* [NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/archive/10.0/cuda-installation-guide-linux/index.html#ubuntu-installation)
 ##
 ### Installing Darknet
 * 詳見：[Installing Darknet](https://pjreddie.com/darknet/install/#cuda)
