@@ -45,8 +45,8 @@ sudo apt-get -y install cuda
 ### Check install 
 * [NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/archive/10.0/cuda-installation-guide-linux/index.html#ubuntu-installation)
 ##
-### Installing Darknet
-* 詳見：[Installing Darknet](https://pjreddie.com/darknet/install/#cuda)
+### Install Darknet
+* 詳見：[Install Darknet](https://pjreddie.com/darknet/install/#cuda)
 * update ~/.bashrc, 在檔案最末一行, 添加兩行
 </pre>
 export PATH=/usr/local/cuda/bin:$PATH
@@ -76,6 +76,9 @@ DEBUG=0
 
 原文链接：https://blog.csdn.net/rtygbwwwerr/java/article/details/73656876
 </pre>
+##
+### Install Darkflow
+* [YOLOv2 object detection using Darkflow](https://towardsdatascience.com/yolov2-object-detection-using-darkflow-83db6aa5cf5f)
 ## 參考
 [darkflow test github](https://github.com/inhail/darkflow)
          
