@@ -47,6 +47,78 @@ inet9k.map - map 200 categories from ImageNet to WordTree 9k.tree: https://raw.g
 ## 系統安裝
 * [從頭開始](https://github.com/jumbokh/yolo-class/blob/master/sysinstall.md)
 ##
+## 下載 Dataset
+### ImageNet
+* [imagenet](http://www.image-net.org/challenges/LSVRC/2012/downloads)
+    * Training images (Task 1 & 2). 138GB.
+    * Validation images (all tasks). 6.3GB.
+    * Training bounding box annotations (Task 1 & 2 only). 20MB.
+* [ImageNet数据集下载与处理](https://zhuanlan.zhihu.com/p/42696535)
+##
+### VOC
+<pre>
+wget https://pjreddie.com/media/files/VOCtrainval_11-May-2012.tar
+wget https://pjreddie.com/media/files/VOCtrainval_06-Nov-2007.tar
+wget https://pjreddie.com/media/files/VOCtest_06-Nov-2007.tar
+tar xf VOCtrainval_11-May-2012.tar
+tar xf VOCtrainval_06-Nov-2007.tar
+tar xf VOCtest_06-Nov-2007.tar
+</pre>
+* Generate Labels for VOC
+    * wget https://pjreddie.com/media/files/voc_label.py
+    * python voc_label.py
+    * cat 2007_train.txt 2007_val.txt 2012_*.txt > train.txt
+    * edit cfg/voc.data
+        <pre>
+         1 classes= 20
+  2 train  = <path-to-voc>/train.txt
+  3 valid  = <path-to-voc>2007_test.txt
+  4 names = data/voc.names
+  5 backup = backup
+        </pre>
+   * Download Pretrained Convolutional Weights
+       * wget https://pjreddie.com/media/files/darknet53.conv.74
+   * mkdir backup
+   * Train the model
+       * ./darknet detector train cfg/voc.data cfg/yolov3-voc.cfg darknet53.conv.74
+ ##
+ ### COCO dataset
+ #### Get The COCO Data
+ <pre>
+ cp scripts/get_coco_dataset.sh data
+cd data
+bash get_coco_dataset.sh
+ </pre>
+ #### Modify cfg for COCO
+ * cfg/coco.data
+ <pre>
+ 1 classes= 80
+  2 train  = <path-to-coco>/trainvalno5k.txt
+  3 valid  = <path-to-coco>/5k.txt
+  4 names = data/coco.names
+  5 backup = backup
+  </pre>
+  #### Look at cfg/yolo.cfg
+  <pre>
+  [net]
+# Testing
+# batch=1
+# subdivisions=1
+# Training
+batch=64
+subdivisions=8
+....
+  </pre>
+#### Train the Model
+* w/o GPU
+    * ./darknet detector train cfg/coco.data cfg/yolov3.cfg darknet53.conv.74
+ * w GPU
+     * ./darknet detector train cfg/coco.data cfg/yolov3.cfg darknet53.conv.74 -gpus 0
+     * or
+     * ./darknet detector train cfg/coco.data cfg/yolov3.cfg darknet53.conv.74 -i 0
+     * stop & restart
+     * ./darknet detector train cfg/coco.data cfg/yolov3.cfg backup/yolov3.backup -gpus 0,1,2,3
+##
 ## 測試步驟
 * [測試](https://github.com/jumbokh/yolo-class/blob/master/basic.md)
 ### 參考連結
