@@ -45,7 +45,7 @@ inet9k.map - map 200 categories from ImageNet to WordTree 9k.tree: https://raw.g
 * [yolo9000.weights](http://pjreddie.com/media/files/yolo9000.weights)
 ##
 ## 系統安裝
-* [從頭開始](https://github.com/jumbokh/yolo-class/blob/master/sysinstall.md)
+* [從O.S.開始](https://github.com/jumbokh/yolo-class/blob/master/sysinstall.md)
 ##
 ## 下載 Dataset
 ### ImageNet
