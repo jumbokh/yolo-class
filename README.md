@@ -10,7 +10,10 @@
 ##
 [philipperemy/yolo-9000](https://github.com/philipperemy/yolo-9000)
 <pre>
-YOLOv2是Joseph Redmon提出的针对YOLO算法不足的改进版本，作者使用了一系列的方法对原来的YOLO多目标检测框架进行了改进，在保持原有速度的优势之下，精度上得以提升，此外作者提出了一种目标分类与检测的联合训练方法，通过这种方法YOLO9000可以同时在COCO和ImageNet数据集中进行训练，训练后的模型可以实现多达9000种物体的实时检测。
+YOLOv2是Joseph Redmon提出的针对YOLO算法不足的改进版本，
+作者使用了一系列的方法对原来的YOLO多目标检测框架进行了改进，
+在保持原有速度的优势之下，精度上得以提升，此外作者提出了一种目标分类与检测的联合训练方法，
+通过这种方法YOLO9000可以同时在COCO和ImageNet数据集中进行训练，训练后的模型可以实现多达9000种物体的实时检测。
 第一种：为darknet添加Python接口
 Github：https://github.com/SidHard/py-yolo2
 
