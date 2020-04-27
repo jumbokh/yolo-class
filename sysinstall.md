@@ -46,6 +46,18 @@ sudo apt-get -y install cuda
 * [NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/archive/10.0/cuda-installation-guide-linux/index.html#ubuntu-installation)
 ##
 ### Tensorflow problem
+#### Error Message:
+<pre>(facecourse-py3) <font color="#8AE234"><b>jumbo@jumbo-gpu</b></font>:<font color="#729FCF"><b>~/yolo</b></font>$ python
+Python 3.6.9 (default, Apr 18 2020, 01:56:04) 
+[GCC 8.4.0] on linux
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt; import tensorflow as tf
+2020-04-27 15:50:06.116701: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library &apos;libnvinfer.so.6&apos;; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.0/lib64:/usr/local/cuda/64:/usr/local/lib:
+2020-04-27 15:50:06.116762: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library &apos;libnvinfer_plugin.so.6&apos;; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-10.0/lib64:/usr/local/cuda/64:/usr/local/lib:
+2020-04-27 15:50:06.116771: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+&gt;&gt;&gt; exit()
+</pre>
+#### Answer by: [Stack Overflow](https://stackoverflow.com/questions/60368298/could-not-load-dynamic-library-libnvinfer-so-6)
 <pre>
 
 This is a warning, not an error. You can still use TensorFlow. The shared libraries libnvinfer and libnvinfer_plugin are optional and required only if you are using nvidia's TensorRT capabilities.
