@@ -148,3 +148,4 @@ CSPNet 開放原始碼： https://github.com/WongKinYiu/CrossStagePartialNetwork
 ### 文件
 * [YOLOv3.pdf](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 * [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
+* [YOLO v4 說明](https://github.com/jumbokh/yolo-class/blob/master/doc/YOLO%20v4%E5%AE%83%E4%BE%86%E4%BA%86%EF%BC%9A%E6%8E%A5%E6%A3%92%E8%80%85%E5%87%BA%E7%8F%BE%EF%BC%8C%E9%80%9F%E5%BA%A6%E6%95%88%E6%9E%9C%E9%9B%99%E6%8F%90%E5%8D%87%20-%20%E5%B9%AB%E8%B6%A3.pdf)
