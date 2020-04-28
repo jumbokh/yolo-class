@@ -131,6 +131,18 @@ subdivisions=8
 ##
 ### 官網
 * [Darknet/yolo官網](https://pjreddie.com/darknet/yolo/)
+### News
+<pre>
+YOLO Darknet 的維護者俄羅斯人 Alexey Bochkovskiy 發現中研院資科所博後王建堯及所長廖弘源研發的 CSPNet detector 又快又好，於是邀請中研院資科所以此為 backbone 發展 YOLOv4 ，速度及正確率比上一代 YOLOv3 都要好。
+
+YOLOv4 英文論文： https://arxiv.org/abs/2004.10934
+YOLOv4 開放原始碼： https://github.com/AlexeyAB/darknet
+YOLOv4 繁體中文介紹： https://bangqu.com/Y47n33.html
+CSPNet 英文論文： https://arxiv.org/pdf/1911.11929.pdf
+CSPNet 開放原始碼： https://github.com/WongKinYiu/CrossStagePartialNetworks
+
+由於 YOLOv4 演算法實在是太厲害了，又是台灣之光， ORAI 人工智慧軟體會盡快整合好 YOLOv4 演算法，並提供教學影片： https://tw.openrobot.org/product/index?sn=11239
+</pre>
 ### 文件
 * [YOLOv3.pdf](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 * [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
