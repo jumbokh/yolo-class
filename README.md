@@ -133,7 +133,8 @@ subdivisions=8
 * [Darknet/yolo官網](https://pjreddie.com/darknet/yolo/)
 ### News
 <pre>
-YOLO Darknet 的維護者俄羅斯人 Alexey Bochkovskiy 發現中研院資科所博後王建堯及所長廖弘源研發的 CSPNet detector 又快又好，於是邀請中研院資科所以此為 backbone 發展 YOLOv4 ，速度及正確率比上一代 YOLOv3 都要好。
+YOLO Darknet 的維護者俄羅斯人 Alexey Bochkovskiy 發現中研院資科所博後王建堯及所長廖弘源研發的 CSPNet detector 又快又好，
+於是邀請中研院資科所以此為 backbone 發展 YOLOv4 ，速度及正確率比上一代 YOLOv3 都要好。
 
 YOLOv4 英文論文： https://arxiv.org/abs/2004.10934
 YOLOv4 開放原始碼： https://github.com/AlexeyAB/darknet
