@@ -142,7 +142,8 @@ YOLOv4 繁體中文介紹： https://bangqu.com/Y47n33.html
 CSPNet 英文論文： https://arxiv.org/pdf/1911.11929.pdf
 CSPNet 開放原始碼： https://github.com/WongKinYiu/CrossStagePartialNetworks
 
-由於 YOLOv4 演算法實在是太厲害了，又是台灣之光， ORAI 人工智慧軟體會盡快整合好 YOLOv4 演算法，並提供教學影片： https://tw.openrobot.org/product/index?sn=11239
+由於 YOLOv4 演算法實在是太厲害了，又是台灣之光， ORAI 人工智慧軟體會盡快整合好 YOLOv4 演算法，
+並提供教學影片： https://tw.openrobot.org/product/index?sn=11239
 </pre>
 ### 文件
 * [YOLOv3.pdf](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
