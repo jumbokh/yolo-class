@@ -1,4 +1,5 @@
 ## imagenet data treatment
+###  tensorflow的models/models/inception/inception/data
 <pre>
 mkdir -p ILSVRC2012
 mkdir -p ILSVRC2012/raw-data
