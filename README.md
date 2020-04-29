@@ -128,6 +128,7 @@ subdivisions=8
 * [Is it possible to use yolo3 with yolo9000 weights for more classes?](https://stackoverflow.com/questions/57853707/is-it-possible-to-use-yolo3-with-yolo9000-weights-for-more-classes)
 * [yoloV3的驚豔結果–比較yoloV2](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/625318/)
 * [Yolo：基於深度學習的物件偵測 (含YoloV3)](https://mropengate.blogspot.com/2018/06/yolo-yolov3.html)
+* [YOLOv3目标检测的TensorFlow实现，可用自己的数据来训练](https://zhuanlan.zhihu.com/p/54795847)
 ##
 ### 官網
 * [Darknet/yolo官網](https://pjreddie.com/darknet/yolo/)
