@@ -1,4 +1,18 @@
 ## Trainning YOLO9000 using COCO dataset
+### Descp
+<pre>
+You should have your own 6 files, as described here: https://github.com/AlexeyAB/darknet#using-yolo9000
+For example, for 2 classes (aircraft, birds) - you should have these files
+data.zip (https://github.com/pjreddie/darknet/files/1689246/data.zip)
+
+Then you should download weights file: http://pjreddie.com/media/files/yolo9000.weights
+And you should get pre-trained file: darknet.exe partial yolo9000.cfg yolo9000.weights yolo9000.conv.22 22
+
+Then you should start to train yolo9000:
+darknet detector train data/air9k.data yolo9000_air.cfg yolo9000.conv.22
+
+All other steps are the same as when training a regular model of Yolo v2.
+</pre>
 ### Get Started
 <pre>
 git clone --recursive https://github.com/philipperemy/yolo-9000.git
