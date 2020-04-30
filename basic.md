@@ -115,7 +115,7 @@ horse: 96%
 horse: 96%
 </pre>
 * ![horse yolov3](https://github.com/jumbokh/yolo-class/blob/master/images/horse-v3.jpg)
-### yolo9000 the other test
+### yolo9000 the other test person
 <pre>
 mask_scale: Using default '1.000000'
 Total BFLOPS 49.080 
@@ -131,6 +131,25 @@ sheep: 52%
 horse: 82%
 </pre>
 ![person-9k](https://github.com/jumbokh/yolo-class/blob/master/images/person9k.jpg)
+##
+### yolo9000 the  test horses
+* ./darknet detector test cfg/combine9k.data cfg/yolo9000.cfg ~/yolo/w/yolo9000.weights data/horses.jpg 
+<pre>
+Total BFLOPS 49.080 
+avg_outputs = 1902429 
+ Allocate additional workspace_size = 52.43 MB 
+Loading weights from w/yolo9000.weights...
+ seen 32, trained: 15501 K-images (242 Kilo-batches_64) 
+Done! Loaded 25 layers from weights-file 
+data/horses.jpg: Predicted in 74.356000 milli-seconds.
+horse: 98%
+horse: 93%
+wild horse: 58%
+horse: 97%
+horse: 93%
+</pre>
+![person-9k](https://github.com/jumbokh/yolo-class/blob/master/images/horses9k.jpg)
+##
 ### current combine.data configuration
 <pre>
 classes= 9418
