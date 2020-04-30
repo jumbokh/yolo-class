@@ -46,6 +46,21 @@ person: 52%
 </pre>
 * ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov3-kite.jpg)
 ##
+### Using yolov4 predict
+* ./darknet-gpu detector cfg/yolov4.cfg w/yolov4.weights data/kite.jpg
+<pre>
+Total BFLOPS 128.459 
+avg_outputs = 1068395 
+ Allocate additional workspace_size = 52.43 MB 
+Loading weights from w/yolov4.weights...
+ seen 64, trained: 32032 K-images (500 Kilo-batches_64) 
+Done! Loaded 162 layers from weights-file 
+data/person.jpg: Predicted in 39.594000 milli-seconds.
+dog: 99%
+person: 100%
+horse: 98%
+</pre>
+* ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/personv4.jpg)
 ### Using yolo9000 predict
 * ./darknet-gpu -i 0 detector test cfg/combine9k.data cfg/yolo9000.cfg w/yolo9000.weights data/kite.jpg
 <pre>
