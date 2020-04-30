@@ -47,7 +47,7 @@ person: 52%
 * ![kite](https://github.com/jumbokh/yolo-class/blob/master/images/yolov3-kite.jpg)
 ##
 ### Using yolov4 predict
-* ./darknet-gpu detector cfg/yolov4.cfg w/yolov4.weights data/kite.jpg
+* ./darknet detector cfg/yolov4.cfg w/yolov4.weights data/person.jpg
 <pre>
 Total BFLOPS 128.459 
 avg_outputs = 1068395 
