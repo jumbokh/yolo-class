@@ -8,6 +8,7 @@ yolo-
           scripts
           backup
 </pre>
+## Darknet Sources: https://github.com/AlexeyAB/darknet
 ## image net download
 * [image net](http://image-net.org/download-images)
 ##
