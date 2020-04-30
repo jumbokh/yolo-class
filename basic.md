@@ -81,7 +81,7 @@ person: 100%
 sheep: 52%
 horse: 82%
 </pre>
-![person-9k]()
+![person-9k](https://github.com/jumbokh/yolo-class/blob/master/images/person9k.jpg)
 ### current combine.data configuration
 <pre>
 classes= 9418
