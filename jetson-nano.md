@@ -11,6 +11,14 @@
  Built on Wed_Oct_23_21:14:42_PDT_2019
  Cuda compilation tools, release 10.2, V10.2.89
  </pre>
+    * jumbo@jumbo-nano:~/jetsonUtilities$ python ./jetsonInfo.py 
+ <pre>
+ NVIDIA Jetson TX1
+ L4T 32.4.2 [ JetPack UNKNOWN ]
+ Ubuntu 18.04.4 LTS
+ Kernel Version: 4.9.140-tegra
+ CUDA 10.2.89
+</pre>
 * [Classifying Images with ImageNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md)
 ##
 ### 參考
