@@ -70,3 +70,6 @@ pip install -U numpy==1.16.0
  * no libcudart.so.10.0
      * cd /usr/local/cuda/lib64
      * ln -fs /usr/local/cuda/lib64/libcudart.so.10.2 /usr/local/cuda/lib64/libcudart.so.10.0
+  ##
+  #### 4.  File ./checkpoint/yolov3_coco.ckpt.meta does not exist
+  * [Converting YOLO* Models to the Intermediate Representation (IR)](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_tf_specific_Convert_YOLO_From_Tensorflow.html)
