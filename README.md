@@ -139,7 +139,7 @@ subdivisions=8
 ##
 ### 官網
 * [Darknet/yolo官網](https://pjreddie.com/darknet/yolo/)
-* [Y](https://github.com/AlexeyAB/darknet)
+* [Alex Darknet](https://github.com/AlexeyAB/darknet)
 ### News
 <pre>
 YOLO Darknet 的維護者俄羅斯人 Alexey Bochkovskiy 發現中研院資科所博後王建堯及所長廖弘源研發的 CSPNet detector 又快又好，
