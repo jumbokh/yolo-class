@@ -36,6 +36,9 @@ gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM),width=3820, height=2
 * [如何讓Jetson Nano順利執行OpenCV中CUDA函式](https://makerpro.cc/2019/06/how-to-make-jetson-nano-perform-cuda-in-opencv4-1-0-smoothly/)
 * [TX2安裝教學(中文)](http://www.honghutech.com/nvidia-jeston-tx2/flashtx2)
 * [Tensorflow-gpu 安裝](https://medium.com/aiot-taipei/jeston-nano-tensorflow-gpu-%E5%AE%89%E8%A3%9D-b26d42f7c3f3)
+##
+### Q & A
+##
 #### 安裝 tensorflow-gpu 遇到問題時
 <pre>
 ERROR: Could not find a version that satisfies the requirement tensorflow-gpu==1.11 (from versions: 1.13.1+nv19.3, 1.13.1+nv19.4, 1.13.1+nv19.5, 1.14.0+nv19.7, 1.14.0+nv19.9, 1.14.0+nv19.10, 1.15.0+nv19.11, 2.0.0+nv19.11)
