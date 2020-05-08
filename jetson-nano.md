@@ -11,6 +11,7 @@
  Built on Wed_Oct_23_21:14:42_PDT_2019
  Cuda compilation tools, release 10.2, V10.2.89
  </pre>
+##
     * jumbo@jumbo-nano:~/jetsonUtilities$ python ./jetsonInfo.py 
  <pre>
  NVIDIA Jetson TX1
