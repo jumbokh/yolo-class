@@ -25,6 +25,7 @@
 ##
 ### 測試 tensorflow-yolov3
 * [快如閃電的目標檢測YOLOv3算法，有了TensorFlow實現](https://kknews.cc/zh-tw/code/ab6qjm6.html)
+* [YunYang1994/tensorflow-yolov3](https://github.com/YunYang1994/tensorflow-yolov3)
 ##
 ### 攝影機
 <pre>
