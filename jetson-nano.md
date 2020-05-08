@@ -61,4 +61,12 @@ ERROR: tensorflow-gpu 1.15.0+nv19.11.tf1 has requirement numpy<2.0,>=1.16.0, but
 <pre>
 pip install -U numpy==1.16.0
 </pre>
-
+##
+#### 3. 轉檔 (weights) 時的問題
+* easydict
+    * pip install easydict
+* no cv2
+    * ln -fs ~/.virtualenvs/deep_learning/lib/python3.6/site-packages/cv2.so cv2.so
+ * no libcudart.so.10.0
+     * cd /usr/local/cuda/lib64
+     * ln -fs /usr/local/cuda/lib64/libcudart.so.10.2 /usr/local/cuda/lib64/libcudart.so.10.0
