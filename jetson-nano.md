@@ -73,8 +73,7 @@ pip install -U numpy==1.16.0
   ##
   #### 4.  File ./checkpoint/yolov3_coco.ckpt.meta does not exist
   * [Converting YOLO* Models to the Intermediate Representation (IR)](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_tf_specific_Convert_YOLO_From_Tensorflow.html)
-  * 
-  * [install darkfloe](https://github.com/thtrieu/darkflow/blob/master/README.md#getting-started)
+  * [install darkflow](https://github.com/thtrieu/darkflow/blob/master/README.md#getting-started)
       * pip install Cython
       * follow the instructions in: [Converting YOLO* Models to the Intermediate Representation (IR)](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_tf_specific_Convert_YOLO_From_Tensorflow.html#install-darkflow)
       * python3 ./flow --model <path_to_model>/<model_name>.cfg --load <path_to_model>/<model_name>.weights --savepb
