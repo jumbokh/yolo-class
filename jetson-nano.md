@@ -20,8 +20,10 @@
  Kernel Version: 4.9.140-tegra
  CUDA 10.2.89
 </pre>
+* [OpenCV 4 + CUDA on Jetson Nano](https://www.jetsonhacks.com/2019/11/22/opencv-4-cuda-on-jetson-nano/)
 * [Classifying Images with ImageNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md)
 ##
 ### 參考
 * [如何讓Jetson Nano順利執行OpenCV中CUDA函式](https://makerpro.cc/2019/06/how-to-make-jetson-nano-perform-cuda-in-opencv4-1-0-smoothly/)
+* [TX2安裝教學(中文)](http://www.honghutech.com/nvidia-jeston-tx2/flashtx2)
 
