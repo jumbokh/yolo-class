@@ -5,12 +5,12 @@
 * [Building the Project from Source](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md#downloading-models)
     * nvcc -V
       <pre>
-      jumbo@jumbo-nano:~/jetsonUtilities$ nvcc -V
-     nvcc: NVIDIA (R) Cuda compiler driver
-     Copyright (c) 2005-2019 NVIDIA Corporation
-      Built on Wed_Oct_23_21:14:42_PDT_2019
-      Cuda compilation tools, release 10.2, V10.2.89
-      </pre>
+ jumbo@jumbo-nano:~/jetsonUtilities$ nvcc -V
+ nvcc: NVIDIA (R) Cuda compiler driver
+ Copyright (c) 2005-2019 NVIDIA Corporation
+ Built on Wed_Oct_23_21:14:42_PDT_2019
+ Cuda compilation tools, release 10.2, V10.2.89
+ </pre>
 * [Classifying Images with ImageNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md)
 ##
 ### 參考
