@@ -47,4 +47,14 @@ ERROR: No matching distribution found for tensorflow-gpu==1.11
 Looking in indexes: https://pypi.org/simple, https://developer.download.nvidia.com/compute/redist/jp/v42
 Collecting tensorflow-gpu==1.15.0+nv19.11
 </pre>
+##
+#### numpy 相容問題
+<pre>
+ERROR: tensorflow-gpu 1.15.0+nv19.11.tf1 has requirement numpy<2.0,>=1.16.0, but you'll have numpy 1.15.1 which is incompatible.
+</pre>
+##
+#### 安裝 numpy 1.16.0 解決
+<pre>
+pip install -U numpy==1.16.0
+</pre>
 
