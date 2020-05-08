@@ -40,6 +40,9 @@ gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM),width=3820, height=2
 <pre>
 ERROR: Could not find a version that satisfies the requirement tensorflow-gpu==1.11 (from versions: 1.13.1+nv19.3, 1.13.1+nv19.4, 1.13.1+nv19.5, 1.14.0+nv19.7, 1.14.0+nv19.9, 1.14.0+nv19.10, 1.15.0+nv19.11, 2.0.0+nv19.11)
 ERROR: No matching distribution found for tensorflow-gpu==1.11
+</pre>
+#### 選擇其中一種組合
+<pre>
 (cv) jumbo@jumbo-nano:~/tensorflow-yolov3$ pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu==1.15.0+nv19.11
 Looking in indexes: https://pypi.org/simple, https://developer.download.nvidia.com/compute/redist/jp/v42
 Collecting tensorflow-gpu==1.15.0+nv19.11
