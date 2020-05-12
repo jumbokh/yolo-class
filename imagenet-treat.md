@@ -1,4 +1,5 @@
 ## imagenet data treatment
+### [ImageNet数据集下载与处理](https://zhuanlan.zhihu.com/p/42696535)
 ###  tensorflow的models/models/inception/inception/data
 <pre>
 mkdir -p ILSVRC2012
