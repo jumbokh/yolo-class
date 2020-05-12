@@ -1,5 +1,9 @@
 ## imagenet data treatment
 ### [ImageNet数据集下载与处理](https://zhuanlan.zhihu.com/p/42696535)
+* Training images (Task 1 & 2). 138GB.
+* Validation images (all tasks). 6.3GB.
+* Training bounding box annotations (Task 1 & 2 only). 20MB.
+##
 ###  tensorflow的models/models/inception/inception/data
 <pre>
 mkdir -p ILSVRC2012
