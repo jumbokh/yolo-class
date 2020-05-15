@@ -3,6 +3,7 @@
 * Training images (Task 1 & 2). 138GB.
 * Validation images (all tasks). 6.3GB.
 * Training bounding box annotations (Task 1 & 2 only). 20MB.
+* [ImageNet训练完整流程](https://blog.csdn.net/SrdLaplace/article/details/82194366?ops_request_misc=&request_id=&biz_id=102&utm_term=imagenet&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-4-82194366)
 ##
 ###  tensorflow的models/models/inception/inception/data
 <pre>
