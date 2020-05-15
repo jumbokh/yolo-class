@@ -43,4 +43,4 @@ python build_imagenet_data.py --train_directory=ILSVRC2012/raw-data/imagenet-dat
 * [使用faster rcnn训练imageNet上的部分数据集](https://www.itdaan.com/blog/2016/04/27/1fd1634f0fb40c788c50ff048f9cd723.html)
 * [目标检测|YOLOv2原理与实现(附YOLOv3)](https://zhuanlan.zhihu.com/p/35325884)
 * [标签："ImageNet"相关文章](https://www.codeleading.com/tag/ImageNet/)
-
+* [How to reproduce ImageNet validation results](https://github.com/calebrob6/imagenet_validation)
