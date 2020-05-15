@@ -34,3 +34,4 @@ python build_imagenet_data.py --train_directory=ILSVRC2012/raw-data/imagenet-dat
 ### 連結
 * [ImageNet数据集下载与处理](https://zhuanlan.zhihu.com/p/42696535)
 * [用tensorflow训练imagenet数据准备](https://blog.csdn.net/hustlx/article/details/76585843)
+* [Tensorflow实现Alexnet对Imagenet的训练与评测](https://blog.csdn.net/gzroy/article/details/87652291?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-21.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-21.nonecase)
