@@ -30,6 +30,18 @@ python build_imagenet_data.py --train_directory=ILSVRC2012/raw-data/imagenet-dat
 #这一步应将build_imagenet_data.py里面的JPEG改为jpeg
 </pre>
 ##
+### ImageNet : [ImageNet Classification](https://pjreddie.com/darknet/imagenet/)
+* 使用 darknet: ./darknet classifier predict cfg/imagenet1k.data cfg/darknet19.cfg darknet19.weights data/dog.jpg
+    * 產出結果：
+ <pre>
+ Loading weights from darknet19.weights...Done!
+data/dog.jpg: Predicted in 0.003655 seconds.
+42.58%: malamute
+22.89%: Eskimo dog
+12.70%: Siberian husky
+ 2.70%: bicycle-built-for-two
+ 1.20%: mountain bike
+ </pre>
 ### 連結
 * [ImageNet数据集下载与处理](https://zhuanlan.zhihu.com/p/42696535)
 * [用tensorflow训练imagenet数据准备](https://blog.csdn.net/hustlx/article/details/76585843)
