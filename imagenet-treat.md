@@ -54,6 +54,7 @@ data/eagle.jpg: Predicted in 0.005066 seconds.
 </pre>
 ### 連結
 * [ImageNet数据集下载与处理](https://zhuanlan.zhihu.com/p/42696535)
+* [2012 torrent](https://www.cnblogs.com/luruiyuan/p/12373328.html)
 * [用tensorflow训练imagenet数据准备](https://blog.csdn.net/hustlx/article/details/76585843)
 * [Tensorflow实现Alexnet对Imagenet的训练与评测](https://blog.csdn.net/gzroy/article/details/87652291?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-21.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-21.nonecase)
 * [ImageNet训练完整流程](https://blog.csdn.net/SrdLaplace/article/details/82194366?ops_request_misc=&request_id=&biz_id=102&utm_term=imagenet&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-4-82194366)
