@@ -3,6 +3,27 @@
 * Training images (Task 1 & 2). 138GB.
 * Validation images (all tasks). 6.3GB.
 * Training bounding box annotations (Task 1 & 2 only). 20MB.
+* [ImageNet 中的Top-1与Top-5](https://blog.csdn.net/v1_vivian/article/details/73251187)
+<pre>
+一些神经网络中会提到ImageNet Top-5 或者Top-1，这是一种图片检测准确率的标准，介绍这个之前，先介绍一下ImageNet。
+
+【ImageNet】
+
+ImageNet 项目是一个用于物体对象识别检索大型视觉数据库。截止2016年，ImageNet 已经对超过一千万个图像进行手动注释，标记图像的类别。在至少一百万张图像中还提供了边界框。
+
+自2010年以来，ImageNet 举办一年一度的软件竞赛，叫做（ImageNet Large Scale Visual Recognition Challenge,ILSVRC)。主要内容是通过算法程序实现正确分类和探测识别物体与场景，评价标准就是Top-5 错误率。
+
+Top-5错误率
+
+即对一个图片，如果概率前五中包含正确答案，即认为正确。
+
+Top-1错误率
+
+即对一个图片，如果概率最大的是正确答案，才认为正确。
+————————————————
+版权声明：本文为CSDN博主「v1_vivian」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/v1_vivian/article/details/73251187
+</pre>
 ##
 ###  tensorflow的models/models/inception/inception/data
 <pre>
