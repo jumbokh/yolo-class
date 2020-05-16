@@ -42,6 +42,16 @@ data/dog.jpg: Predicted in 0.003655 seconds.
  2.70%: bicycle-built-for-two
  1.20%: mountain bike
  </pre>
+ * ./darknet classifier predict cfg/imagenet1k.data cfg/darknet19.cfg darknet19.weights data/eagle.jpg
+<pre>
+Loading weights from darknet19.weights...Done!
+data/eagle.jpg: Predicted in 0.005066 seconds.
+85.00%: bald eagle
+11.57%: kite
+ 2.64%: vulture
+ 0.08%: great grey owl
+ 0.07%: hen
+</pre>
 ### 連結
 * [ImageNet数据集下载与处理](https://zhuanlan.zhihu.com/p/42696535)
 * [用tensorflow训练imagenet数据准备](https://blog.csdn.net/hustlx/article/details/76585843)
