@@ -1,8 +1,10 @@
 ## imagenet data treatment
+### [小白train自己的YOLO v4](https://mc.ai/%E5%B0%8F%E7%99%BDtrain%E8%87%AA%E5%B7%B1%E7%9A%84yolo-v4/)
 ### [ImageNet数据集下载与处理](https://zhuanlan.zhihu.com/p/42696535)
 * Training images (Task 1 & 2). 138GB.
 * Validation images (all tasks). 6.3GB.
 * Training bounding box annotations (Task 1 & 2 only). 20MB.
+* [Pretrained Convolutional Weights from darknet53](https://github.com/ultralytics/yolov3/issues/6)
 * [ImageNet 中的Top-1与Top-5](https://blog.csdn.net/v1_vivian/article/details/73251187)
 <pre>
 一些神经网络中会提到ImageNet Top-5 或者Top-1，这是一种图片检测准确率的标准，介绍这个之前，先介绍一下ImageNet。
