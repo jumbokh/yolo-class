@@ -58,7 +58,7 @@ Top-1错误率
 ##
 ### Validate
 * yolo-obj_last.weights
-    * ./darknet classifier valid cfg/imagenet1k.data cfg/yolo-obj.cfg ~/backup/yolo-obj_last.weights
+    * ./darknet classifier valid cfg/imagenet1k.data cfg/yolov4.cfg ~/backup/yolo-obj_final.weights
 <pre>
 </pre>
 ###  tensorflow的models/models/inception/inception/data
