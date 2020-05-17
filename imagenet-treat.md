@@ -27,7 +27,8 @@ Top-1错误率
 原文链接：https://blog.csdn.net/v1_vivian/article/details/73251187
 </pre>
 ##
-### Train
+### Train 1
+#### Download yolov4 partial weights: [yolov4.conv.137](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137)
 * sudo ./darknet detector train data/imagenet1k.data cfg/yolo-obj.cfg w/yolov4.conv.137 
     * [yolo-obj.cfg](https://github.com/jumbokh/yolo-class/blob/master/cfg/yolo-obj.cfg)
     * [imagenet.shortnames.list](https://github.com/AlexeyAB/darknet/blob/master/cfg/imagenet.shortnames.list)
