@@ -28,6 +28,7 @@ Top-1错误率
 </pre>
 ##
 ### Train 1
+#### 使用 Alex 的 Darknet [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
 #### Download yolov4 partial weights: [yolov4.conv.137](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137)
 * sudo ./darknet detector train data/imagenet1k.data cfg/yolo-obj.cfg w/yolov4.conv.137 
     * [yolo-obj.cfg](https://github.com/jumbokh/yolo-class/blob/master/cfg/yolo-obj.cfg)
