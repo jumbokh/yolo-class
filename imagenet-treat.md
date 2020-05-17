@@ -27,6 +27,17 @@ Top-1错误率
 原文链接：https://blog.csdn.net/v1_vivian/article/details/73251187
 </pre>
 ##
+### How to change filter size of Final layer?
+<pre>
+In YoloV3 you have to change each filters= in 3 convolutional layers before [yolo] layer and classes in [yolo] layer
+Formula is filters = (classes+5)*3 in yoloV3 (3 masks only)
+</per>
+##
+### Error Message
+<pre>
+Error: l.outputs == params.inputs 
+filters= in the [convolutional]-layer doesn't correspond to classes= or mask= in [yolo]-layer
+</pre>
 ### Train 1
 #### 使用 Alex 的 Darknet [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
 #### Download yolov4 partial weights: [yolov4.conv.137](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137)
