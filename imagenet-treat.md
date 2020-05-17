@@ -60,6 +60,16 @@ Top-1错误率
 * yolo-obj_last.weights
     * ./darknet classifier valid cfg/imagenet1k.data cfg/yolov4.cfg ~/backup/yolo-obj_final.weights
 <pre>
+49990: top 1: 0.001160, top 5: 0.005081
+49991: top 1: 0.001160, top 5: 0.005081
+49992: top 1: 0.001160, top 5: 0.005081
+49993: top 1: 0.001160, top 5: 0.005081
+49994: top 1: 0.001160, top 5: 0.005081
+49995: top 1: 0.001160, top 5: 0.005080
+49996: top 1: 0.001160, top 5: 0.005080
+49997: top 1: 0.001160, top 5: 0.005080
+49998: top 1: 0.001160, top 5: 0.005080
+49999: top 1: 0.001160, top 5: 0.005080
 </pre>
 ###  tensorflow的models/models/inception/inception/data
 <pre>
