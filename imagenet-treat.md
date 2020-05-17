@@ -34,6 +34,7 @@ Top-1错误率
     * [yolo-obj.cfg](https://github.com/jumbokh/yolo-class/blob/master/cfg/yolo-obj.cfg)
     * [imagenet.shortnames.list](https://github.com/AlexeyAB/darknet/blob/master/cfg/imagenet.shortnames.list)
     * [imagenet1k.data](https://github.com/jumbokh/yolo-class/blob/master/cfg/imagenet1k.data)
+    * [imagenet.labels.list](https://github.com/jumbokh/yolo-class/blob/master/cfg/imagenet.labels.list)
 ##
 ### Validate
 * yolo-obj_last.weights
