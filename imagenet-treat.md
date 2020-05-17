@@ -27,6 +27,23 @@ Top-1错误率
 原文链接：https://blog.csdn.net/v1_vivian/article/details/73251187
 </pre>
 ##
+### Train
+##
+### Validate
+* yolo-obj_last.weights
+    * ./darknet classifier valid cfg/imagenet1k.data cfg/yolo-obj.cfg ~/backup/yolo-obj_last.weights
+<pre>
+49990: top 1: 0.001020, top 5: 0.005481
+49991: top 1: 0.001020, top 5: 0.005481
+49992: top 1: 0.001020, top 5: 0.005481
+49993: top 1: 0.001020, top 5: 0.005481
+49994: top 1: 0.001020, top 5: 0.005481
+49995: top 1: 0.001020, top 5: 0.005480
+49996: top 1: 0.001020, top 5: 0.005480
+49997: top 1: 0.001020, top 5: 0.005480
+49998: top 1: 0.001020, top 5: 0.005480
+49999: top 1: 0.001020, top 5: 0.005480
+</pre>
 ###  tensorflow的models/models/inception/inception/data
 <pre>
 mkdir -p ILSVRC2012
