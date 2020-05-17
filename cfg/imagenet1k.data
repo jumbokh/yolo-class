@@ -1,0 +1,7 @@
+classes=80
+train  = data/imagenet/imagenet1k.train.list
+valid  = data/imagenet/imagenet1k.valid.list
+backup = /home/jumbo/backup/
+labels = cfg/imagenet.labels.list
+names  = cfg/imagenet.shortnames.list
+top=5
