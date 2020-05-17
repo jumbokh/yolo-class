@@ -136,6 +136,7 @@ subdivisions=8
 * [yoloV3的驚豔結果–比較yoloV2](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/625318/)
 * [Yolo：基於深度學習的物件偵測 (含YoloV3)](https://mropengate.blogspot.com/2018/06/yolo-yolov3.html)
 * [YOLOv3目标检测的TensorFlow实现，可用自己的数据来训练](https://zhuanlan.zhihu.com/p/54795847)
+* [如何快速完成YOLO V3訓練與預測](https://chtseng.wordpress.com/2018/10/08/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90yolo-v3%E8%A8%93%E7%B7%B4%E8%88%87%E9%A0%90%E6%B8%AC/)
 ##
 ### 官網
 * [Darknet/yolo官網](https://pjreddie.com/darknet/yolo/)
