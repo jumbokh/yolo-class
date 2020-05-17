@@ -82,6 +82,27 @@ filters= in the [convolutional]-layer doesn't correspond to classes= or mask= in
 49998: top 1: 0.001160, top 5: 0.005080
 49999: top 1: 0.001160, top 5: 0.005080
 </pre>
+##
+### Train 3: 22k
+#### Out of memory
+<pre>
+ CUDA-version: 10010 (10020), cuDNN: 7.6.5, GPU count: 1  
+ OpenCV version: 3.3.1
+yolov4-22k
+ 0 : compute_capability = 610, cudnn_half = 0, GPU: GeForce GTX 1080 
+net.optimized_memory = 0 
+mini_batch = 2, batch = 64, time_steps = 1, train = 1 
+   layer   filters  size/strd(dil)      input                output
+   0  Try to set subdivisions=64 in your cfg-file. 
+CUDA status Error: file: /home/jumbo/hd/AlexeyAB/darknet/src/dark_cuda.c : () : line: 373 : build time: May 16 2020 - 16:51:27 
+
+ CUDA Error: out of memory
+CUDA Error: out of memory: File exists
+</pre>
+####
+* in cfg - convolutional layer
+    * filters=65541 ?
+##
 ###  tensorflow的models/models/inception/inception/data
 <pre>
 mkdir -p ILSVRC2012
