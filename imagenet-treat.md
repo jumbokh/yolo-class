@@ -103,6 +103,9 @@ CUDA Error: out of memory: File exists
 * in cfg - convolutional layer
     * filters=65541 ?
 ##
+### Train 4: yolo9000
+### IOU = -nan  see [Alex answer](https://github.com/AlexeyAB/darknet/issues/636#issuecomment-381400954)
+##
 ###  tensorflow的models/models/inception/inception/data
 <pre>
 mkdir -p ILSVRC2012
