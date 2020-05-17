@@ -51,6 +51,16 @@ Top-1错误率
 49998: top 1: 0.001020, top 5: 0.005480
 49999: top 1: 0.001020, top 5: 0.005480
 </pre>
+### Train 2
+#### 使用 Alex 的 Darknet [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
+#### Download yolov4 weights: [yolov4.weights](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT)
+* sudo ./darknet detector train data/imagenet1k.data cfg/yolo-obj.cfg w/yolov4.weights
+##
+### Validate
+* yolo-obj_last.weights
+    * ./darknet classifier valid cfg/imagenet1k.data cfg/yolo-obj.cfg ~/backup/yolo-obj_last.weights
+<pre>
+</pre>
 ###  tensorflow的models/models/inception/inception/data
 <pre>
 mkdir -p ILSVRC2012
