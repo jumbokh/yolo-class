@@ -28,6 +28,11 @@ Top-1错误率
 </pre>
 ##
 ### Train
+* sudo ./darknet detector train data/imagenet1k.data cfg/yolo-obj.cfg w/yolov4.conv.137
+    * 
+    * [yolo-obj.cfg]()
+    * [obj.names]()
+    * [obj.data]()
 ##
 ### Validate
 * yolo-obj_last.weights
