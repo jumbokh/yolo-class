@@ -27,11 +27,12 @@ Top-1错误率
 原文链接：https://blog.csdn.net/v1_vivian/article/details/73251187
 </pre>
 ##
+
 ### How to change filter size of Final layer?
 <pre>
 In YoloV3 you have to change each filters= in 3 convolutional layers before [yolo] layer and classes in [yolo] layer
 Formula is filters = (classes+5)*3 in yoloV3 (3 masks only)
-</per>
+</pre>
 ##
 ### 提取訓練好的權重
 #### [yolo partial提取已经训练好的网络中的部分权重](https://blog.csdn.net/BlackLion_zhou/article/details/103564595)
