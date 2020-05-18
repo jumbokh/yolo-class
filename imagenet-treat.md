@@ -111,7 +111,25 @@ CUDA Error: out of memory: File exists
     * filters=65541 ?
 ##
 ### Train 4: yolo9000
+* sudo ./darknet detector train cfg/combine9k.data cfg/yolo9000.cfg w/yolo9000.conv.22 -gpu 0
 ### IOU = -nan  see [Alex answer](https://github.com/AlexeyAB/darknet/issues/636#issuecomment-381400954)
+##
+### Validate
+* yolo9000_last.weights
+    * ./darknet classifier valid cfg/combine9k.data cfg/yolo9000.cfg ~/backup/yolo9000_last.weights
+##
+<pre>
+49990: top 1: 0.001000, top 1: 0.001000
+49991: top 1: 0.001000, top 1: 0.001000
+49992: top 1: 0.001000, top 1: 0.001000
+49993: top 1: 0.001000, top 1: 0.001000
+49994: top 1: 0.001000, top 1: 0.001000
+49995: top 1: 0.001000, top 1: 0.001000
+49996: top 1: 0.001000, top 1: 0.001000
+49997: top 1: 0.001000, top 1: 0.001000
+49998: top 1: 0.001000, top 1: 0.001000
+49999: top 1: 0.001000, top 1: 0.001000
+</pre>
 ##
 ###  tensorflow的models/models/inception/inception/data
 <pre>
