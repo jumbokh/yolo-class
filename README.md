@@ -141,6 +141,7 @@ subdivisions=8
 * [Q&A](https://github.com/pjreddie/darknet/issues/581)
 * [Object Detection with YOLOv3 using Keras](https://towardsdatascience.com/object-detection-using-yolov3-using-keras-80bf35e61ce1)
 * [YOLO-V3 實戰](https://www.cnblogs.com/xieqi/p/9818056.html)
+* [YOLOv4簡介與實作-修改2版](https://medium.com/@kevincho840430/yolov4%E7%B0%A1%E4%BB%8B%E8%88%87%E5%AF%A6%E4%BD%9C-1%E7%89%88-355f1f59a319)
 ##
 ### 官網
 * [Darknet/yolo官網](https://pjreddie.com/darknet/yolo/)
