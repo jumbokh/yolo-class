@@ -138,6 +138,7 @@ subdivisions=8
 * [YOLOv3目标检测的TensorFlow实现，可用自己的数据来训练](https://zhuanlan.zhihu.com/p/54795847)
 * [如何快速完成YOLO V3訓練與預測](https://chtseng.wordpress.com/2018/10/08/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%AE%8C%E6%88%90yolo-v3%E8%A8%93%E7%B7%B4%E8%88%87%E9%A0%90%E6%B8%AC/)
 * [Yolo-v3 and Yolo-v2 for Windows and Linux](https://github.com/stereolabs/zed-yolo/blob/master/libdarknet/README.md)
+* [Q&A](https://github.com/pjreddie/darknet/issues/581)
 ##
 ### 官網
 * [Darknet/yolo官網](https://pjreddie.com/darknet/yolo/)
