@@ -174,3 +174,4 @@ data/eagle.jpg: Predicted in 0.005066 seconds.
 * [目标检测|YOLOv2原理与实现(附YOLOv3)](https://zhuanlan.zhihu.com/p/35325884)
 * [标签："ImageNet"相关文章](https://www.codeleading.com/tag/ImageNet/)
 * [How to reproduce ImageNet validation results](https://github.com/calebrob6/imagenet_validation)
+* [Run YoloV3 detections on thousands of images and save outputs?](https://github.com/pjreddie/darknet/issues/723)
