@@ -1,5 +1,6 @@
 ## imagenet data treatment
 ### [小白train自己的YOLO v4](https://mc.ai/%E5%B0%8F%E7%99%BDtrain%E8%87%AA%E5%B7%B1%E7%9A%84yolo-v4/)
+### [Train a state-of-the-art yolov3 object detector from scratch!](https://github.com/AntonMu/TrainYourOwnYOLO)
 ### 提取訓練好的權重
 #### [yolo partial提取已经训练好的网络中的部分权重](https://blog.csdn.net/BlackLion_zhou/article/details/103564595)
 * command: ./darknet partial yolov3-tiny.cfg yolov3-tiny_370000.weights tiny-voc-good.conv.5 5
