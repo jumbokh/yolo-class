@@ -33,6 +33,10 @@ In YoloV3 you have to change each filters= in 3 convolutional layers before [yol
 Formula is filters = (classes+5)*3 in yoloV3 (3 masks only)
 </per>
 ##
+### 提取訓練好的權重
+#### [yolo partial提取已经训练好的网络中的部分权重](https://blog.csdn.net/BlackLion_zhou/article/details/103564595)
+* command: ./darknet partial yolov3-tiny.cfg yolov3-tiny_370000.weights tiny-voc-good.conv.5 5
+    * ./darknet partial cfg文件　权重文件　输出名字　层数
 ### Error Message
 <pre>
 Error: l.outputs == params.inputs 
