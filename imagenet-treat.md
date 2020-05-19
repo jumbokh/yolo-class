@@ -7,6 +7,16 @@
 #### [yolo partial提取已经训练好的网络中的部分权重](https://blog.csdn.net/BlackLion_zhou/article/details/103564595)
 * command: ./darknet partial yolov3-tiny.cfg yolov3-tiny_370000.weights tiny-voc-good.conv.5 5
     * ./darknet partial cfg文件　权重文件　输出名字　层数
+### What is the difference between ImageNet and ImageNet1k? How to download it?
+<pre>
+The ImageNet dataset consists of more than 14M images, divided into approximately 22k different labels/classes. However the ImageNet challenge is conducted on just 1k high-level categories (probably because 22k is just too much).
+</pre>
+[ImageNet Stats](http://www.image-net.org/download-images)
+<pre>
+When people mention results on the ImageNet, they almost always mean the 1k labels (if some paper uses the original 22k labels, they would surly mention it). So basically ImageNet=ImageNet-1k.
+
+Regarding downloading the dataset. Since you are downloading ImageNet for your personal usage (GAN training) and not to participate in one of the challenges, it doesn't really matter, so just download the latest dataset labeled "Download links to ILSVRC2017 image data".
+</pre>
 ### [ImageNet数据集下载与处理](https://zhuanlan.zhihu.com/p/42696535)
 * Training images (Task 1 & 2). 138GB.
 * Validation images (all tasks). 6.3GB.
