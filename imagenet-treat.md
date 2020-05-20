@@ -206,3 +206,4 @@ data/eagle.jpg: Predicted in 0.005066 seconds.
 * [How to reproduce ImageNet validation results](https://github.com/calebrob6/imagenet_validation)
 * [Run YoloV3 detections on thousands of images and save outputs?](https://github.com/pjreddie/darknet/issues/723)
 * [基于Imagenet训练的深度学习卷积网络调参心得](https://blog.csdn.net/gzroy/article/details/88831481?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-5)
+* [A new test set for ImageNet](https://github.com/modestyachts/ImageNetV2)
