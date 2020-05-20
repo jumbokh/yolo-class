@@ -33,6 +33,18 @@ sudo jtop
 ##
 * ![jtop](https://github.com/jumbokh/yolo-class/blob/master/images/jtop.jpg)
 ### [Jetson nano](https://medium.com/@jackycsie/jetson-nano-9d89cbf2fc18)
+##
+<pre>
+切換高低功率
+當訓練的時候，有可能因為你的電力無法負荷而馬上跳電，nvidia 在這裡算是很親民的提供兩種方式讓你轉換，5w, 10w，降成 5w 後許多 model 就跑得動了如: Resnet50，下面是轉換低功率與正常功率的指令。
+# 知道目前是哪一個 mode
+sudo nvpmodel -q
+# 將目前的瓦數 降為5瓦
+sudo nvpmodel -m1
+# 將目前的瓦數 改為 max 瓦，max 最大為(10w)
+sudo nvpmodel -m0
+改成 5w 後，會自動的將兩個 cpu 關閉，只使用 cpu 1, 2。
+</pre>
 #### Test by console command [~/jetson-inference/build-release/aarch64/bin]
 *   ./imagenet-console img/golf4.jpg golf4-j.jpg
     * output: ![golf4-j.jpg](https://github.com/jumbokh/yolo-class/blob/master/images/golf4-j.jpg)
