@@ -24,7 +24,7 @@
 * [Classifying Images with ImageNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md)
 ##
 ### [Jetson nano](https://medium.com/@jackycsie/jetson-nano-9d89cbf2fc18)
-#### Test by console command
+#### Test by console command [~/jetson-inference/build-release/aarch64/bin]
 *   ./imagenet-console img/golf4.jpg golf4-j.jpg
     * output: ![golf4-j.jpg](https://github.com/jumbokh/yolo-class/blob/master/images/golf4-j.jpg)
 *  ./detectnet-console img/golf4.jpg ~/golf4-face.jpg facenet
