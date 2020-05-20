@@ -23,6 +23,15 @@
 * [OpenCV 4 + CUDA on Jetson Nano](https://www.jetsonhacks.com/2019/11/22/opencv-4-cuda-on-jetson-nano/)
 * [Classifying Images with ImageNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md)
 ##
+### jtop
+<pre>
+sudo apt-get install python-pip python-dev build-essential 
+sudo pip install --upgrade pip
+sudo -H pip install jetson-stats
+sudo jtop
+</pre>
+##
+* ![jtop](https://github.com/jumbokh/yolo-class/blob/master/images/jtop.jpg)
 ### [Jetson nano](https://medium.com/@jackycsie/jetson-nano-9d89cbf2fc18)
 #### Test by console command [~/jetson-inference/build-release/aarch64/bin]
 *   ./imagenet-console img/golf4.jpg golf4-j.jpg
