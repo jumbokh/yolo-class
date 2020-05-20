@@ -208,3 +208,4 @@ data/eagle.jpg: Predicted in 0.005066 seconds.
 * [基于Imagenet训练的深度学习卷积网络调参心得](https://blog.csdn.net/gzroy/article/details/88831481?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-5)
 * [A new test set for ImageNet](https://github.com/modestyachts/ImageNetV2)
 * [[机器学习与深度学习] - No.6 ImageNet数据集预处理方式](https://www.codeleading.com/article/85113253638/)
+* [Keras Applications](https://keras.io/api/applications/)
