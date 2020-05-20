@@ -23,6 +23,12 @@
 * [OpenCV 4 + CUDA on Jetson Nano](https://www.jetsonhacks.com/2019/11/22/opencv-4-cuda-on-jetson-nano/)
 * [Classifying Images with ImageNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md)
 ##
+### [Jetson nano](https://medium.com/@jackycsie/jetson-nano-9d89cbf2fc18)
+#### Test by console command
+*   ./imagenet-console img/golf4.jpg golf4-j.jpg
+    * output: ![golf4-j.jpg](https://github.com/jumbokh/yolo-class/blob/master/images/golf4-j.jpg)
+*  ./detectnet-console img/golf4.jpg ~/golf4-face.jpg facenet
+    * output: ![golf4-face.jpg](https://github.com/jumbokh/yolo-class/blob/master/images/golf4-face.jpg)
 ### 測試 tensorflow-yolov3
 * [快如閃電的目標檢測YOLOv3算法，有了TensorFlow實現](https://kknews.cc/zh-tw/code/ab6qjm6.html)
 * [YunYang1994/tensorflow-yolov3](https://github.com/YunYang1994/tensorflow-yolov3)
