@@ -2,6 +2,7 @@
 * [jetpack SDK](https://developer.nvidia.com/embedded/jetpack)
 * [Getting Start Guide](https://developer.download.nvidia.com/embedded/L4T/r32-3-1_Release_v1.0/Jetson_Nano_Developer_Kit_User_Guide.pdf?bIKjG7vqM-PvFhcQfHbtORlX2VZVqN1FQgBkeJ2XupnY4bkfepr3oUPUR5u7DuZ7IgS-qPPgHcpjY56u7basDlwQgEzGyHdrSwg4WKqUdjinj7mdfJBNRtYKbCVMc6gsneLoctJ73iGrX07OzqGkBdEJ2TEmYFwph-RmeHUiY__QgV0J6Gy5Cgs)
 * [Getting started with the NVIDIA Jetson Nano](https://www.pyimagesearch.com/2019/05/06/getting-started-with-the-nvidia-jetson-nano/)
+* [NVIDIA Jetson Nano 如何執行深度學習範例？分類模型辨識北極熊與即時影像人臉辨識](https://blog.cavedu.com/2019/04/30/nvidia-jetson-nano-example/)
 * [Building the Project from Source](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md#downloading-models)
     * nvcc -V
  <pre>
