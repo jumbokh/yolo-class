@@ -2,6 +2,7 @@
 ### [小白train自己的YOLO v4](https://mc.ai/%E5%B0%8F%E7%99%BDtrain%E8%87%AA%E5%B7%B1%E7%9A%84yolo-v4/)
 ### [Train a state-of-the-art yolov3 object detector from scratch!](https://github.com/AntonMu/TrainYourOwnYOLO)
 ### [ImageNet Classification](https://pjreddie.com/darknet/imagenet/)
+### [imagenet 2012 browse-synset](http://image-net.org/challenges/LSVRC/2012/browse-synsets)
 ### [YOLO---Darknet下使用YOLO的常用命令](https://www.cnblogs.com/carle-09/p/10570347.html)
 ### 提取訓練好的權重
 #### [yolo partial提取已经训练好的网络中的部分权重](https://blog.csdn.net/BlackLion_zhou/article/details/103564595)
