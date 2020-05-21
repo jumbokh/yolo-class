@@ -1,3 +1,17 @@
+## Trainning YOLO9000 steps
+<pre>
+1.Make class name list.
+2.Make image set. The filename should contains the object's class. For example, dog is the class labelof file 123_dog_456.png .
+3.Make train/test list. Please use absolute path.
+4.Decide which network to use.
+5.Download weighs file from this page.
+6.Use layers in weights file by darknet partial CFG_FILE WEIGHTS.weights RESULT.weights HOW_MANY_LAYERS .
+7.Edit the DATA_CFG file (xxx.data), replace the train/test file with your own.
+8.Start training with darknet classifier DATA_CFG NET_CFG RESULT.weights
+9.Have a cup of cafe~
+</pre>
+##
+## Documents : [Alex: https://github.com/AlexeyAB/darknet#using-yolo9000](https://github.com/AlexeyAB/darknet#using-yolo9000)
 ## Trainning YOLO9000 using COCO dataset
 ### Descp
 <pre>
