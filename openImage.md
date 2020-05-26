@@ -30,7 +30,7 @@ Girl
 * [data/oid.data](https://github.com/jumbokh/yolo-class/blob/master/oid/cfg/obj.data)
 * [cfg/yolov4-oid.cfg](https://github.com/jumbokh/yolo-class/blob/master/oid/cfg/yolov4-oid.cfg)
 * [data/oid.names](https://github.com/jumbokh/yolo-class/blob/master/oid/cfg/obj.names)
-### [yolov4.conv.173](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137)
+### [YOLOv4 pretrained Partial weights from AlexeyAB: yolov4.conv.173](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137)
 ##
 ### Train:
 * copy images files to : darknet/data/obj
