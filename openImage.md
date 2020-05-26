@@ -11,6 +11,8 @@
         * $ git clone https://github.com/EscVM/OIDv4_ToolKit
         * (oid)$ cd OIDv4_ToolKit
         * (oid)$ python main.py downloader --classes Boy Woman Man Girl --type_csv train --limit 1000 --multiclasses 1
+        * (oid)$ mkdir ~/AlexeyAB/darknet/data/oid -p
+        * (oid)$ cp OID/Dataset/* ~/AlexeyAB/darknet/data/oid
     * convert annotation:
         * 修改 classes.txt
 ##
