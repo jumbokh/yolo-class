@@ -24,7 +24,7 @@ Girl
 * (oid)$ python convert_annotations.py 
 * [program](https://github.com/Jahidur1414/OIDv4_ToolKit-For-Custom-Data-Set-Create-/blob/master/convert_annotations.py)
 ##
-### relative configurations:
+### related configurations:
 * [data/oid.data](https://github.com/jumbokh/yolo-class/blob/master/oid/cfg/obj.data)
 * [cfg/yolov4-oid.cfg](https://github.com/jumbokh/yolo-class/blob/master/oid/cfg/yolov4-oid.cfg)
 * [data/oid.names](https://github.com/jumbokh/yolo-class/blob/master/oid/cfg/obj.names)
