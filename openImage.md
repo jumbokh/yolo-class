@@ -7,8 +7,8 @@
     * 下載: 
         * $ mkvirtualenv oid -p python3
         * $ workon oid
-        * (連結 cv2.so 至library)
-        * $ git clone https://github.com/EscVM/OIDv4_ToolKit
+        * (oid)$ ln -fs ~/.virtualenvs/cv/lib/python3.6/site-packages/cv2/cv2.so ~/.virtualenvs/oid/lib/python3.6/site-packages/cv2.so   # (連結 cv2.so 至library)
+        * (oid)$ git clone https://github.com/EscVM/OIDv4_ToolKit
         * (oid)$ cd OIDv4_ToolKit
         * (oid)$ python main.py downloader --classes Boy Woman Man Girl --type_csv train --limit 1000 --multiclasses 1
         * (oid)$ mkdir ~/AlexeyAB/darknet/data/oid -p
