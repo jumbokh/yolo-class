@@ -36,6 +36,7 @@ Girl
 * copy images files to : darknet/data/obj
 * mkdir backup
 * (oid)$ ./darknet detector train data/obj.data cfg/yolov4-oid.cfg w/yolov4.conv.173 -i 0
+* [trained-weights](https://drive.google.com/open?id=1cDuyHnDQZcABnVBFtM1f0Zvmbsw0IP3e)
 ##
 ### predict:
 * (oid)$ ./darknet detector test data/obj.data cfg/yolov4-oid.cfg w/yolov4-oid_last.weights -i 0
