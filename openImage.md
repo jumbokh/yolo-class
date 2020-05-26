@@ -38,3 +38,6 @@ Girl
 ##
 ### result (Man, Woman, Boy, Girl)
 * [predict result]()
+##
+### 參考連結
+* [手把手的深度學習實務](https://github.com/jumbokh/hands-on-DL/blob/master/slides_181202.pdf)
