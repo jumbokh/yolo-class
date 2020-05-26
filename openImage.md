@@ -20,13 +20,15 @@ Woman
 Man
 Girl
 </pre>
-        * (oid)$ python convert_annotations.py [program](https://github.com/Jahidur1414/OIDv4_ToolKit-For-Custom-Data-Set-Create-/blob/master/convert_annotations.py)
+##
+* (oid)$ python convert_annotations.py 
+* [program](https://github.com/Jahidur1414/OIDv4_ToolKit-For-Custom-Data-Set-Create-/blob/master/convert_annotations.py)
 ##
 ### relative configurations:
-* [data/oid.data]()
-* [cfg/yolov4-oid.cfg]()
-* [data/oid.names]()
-### [yolov4.conv.173]()
+* [data/oid.data](https://github.com/jumbokh/yolo-class/blob/master/oid/cfg/obj.data)
+* [cfg/yolov4-oid.cfg](https://github.com/jumbokh/yolo-class/blob/master/oid/cfg/yolov4-oid.cfg)
+* [data/oid.names](https://github.com/jumbokh/yolo-class/blob/master/oid/cfg/obj.names)
+### [yolov4.conv.173](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137)
 ##
 ### Train:
 * copy images files to : darknet/data/obj
@@ -34,10 +36,10 @@ Girl
 * (oid)$ ./darknet detector train data/obj.data cfg/yolov4-oid.cfg w/yolov4.conv.173 -i 0
 ##
 ### predict:
-* ()oid)$ ./darknet detector test data/obj.data cfg/yolov4-oid.cfg w/yolov4.conv.173 -i 0
+* (oid)$ ./darknet detector test data/obj.data cfg/yolov4-oid.cfg w/yolov4.conv.173 -i 0
 ##
 ### result (Man, Woman, Boy, Girl)
-* [predict result]()
+* [Boy_Woman_Man predict result](https://github.com/jumbokh/yolo-class/blob/master/oid/out-oid/oid-predict-Man_Woman_Boy.odt)
 ##
 ### 參考連結
 * [手把手的深度學習實務](https://github.com/jumbokh/hands-on-DL/blob/master/slides_181202.pdf)
