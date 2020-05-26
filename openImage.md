@@ -2,7 +2,7 @@
 #### [參考影片](https://www.youtube.com/watch?v=zJDUhGL26iU&t=1175s)
 #### 下載資料集: Boy, Woman, Man, Girl
 * [Github: EscVM/OIDv4_ToolKit](https://github.com/EscVM/OIDv4_ToolKit)
-    * 環境設定, [套件安裝](https://github.com/EscVM/OIDv4_ToolKit/blob/master/requirements.txt)
+    * 環境設定, [套件安裝 requirements](https://github.com/EscVM/OIDv4_ToolKit/blob/master/requirements.txt)
     * opencv-python 可以另外處理(不安裝)
     * 下載: 
         * $ mkvirtualenv oid -p python3
