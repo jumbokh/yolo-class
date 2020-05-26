@@ -37,6 +37,7 @@ Girl
 ##
 ### predict:
 * (oid)$ ./darknet detector test data/obj.data cfg/yolov4-oid.cfg w/yolov4.conv.173 -i 0
+* ![child5](https://github.com/jumbokh/yolo-class/blob/master/oid/out-oid/child5-oid.jpg)
 ##
 ### result (Man, Woman, Boy, Girl)
 * [Boy_Woman_Man predict result](https://github.com/jumbokh/yolo-class/blob/master/oid/out-oid/oid-predict-Man_Woman_Boy.odt)
