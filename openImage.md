@@ -13,6 +13,9 @@
         * (oid)$ python main.py downloader --classes Boy Woman Man Girl --type_csv train --limit 1000 --multiclasses 1
         * (oid)$ mkdir ~/AlexeyAB/darknet/data/oid -p
         * (oid)$ cp OID/Dataset/* ~/AlexeyAB/darknet/data/oid
+        * (oid)$ cd ~/AlexeyAB/darknet
+        * (oid)$ find data/oid -name "*.jpg" -print > train.txt
+        * (oid)$ mv train.txt data
     * convert annotation:
         * 修改 classes.txt
 ##
