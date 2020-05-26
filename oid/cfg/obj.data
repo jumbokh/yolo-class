@@ -1,0 +1,6 @@
+classes= 4
+train  = data/train.txt
+valid  = data/test.txt
+#valid = data/coco_val_5k.list
+names = data/obj.names
+backup = backup/
