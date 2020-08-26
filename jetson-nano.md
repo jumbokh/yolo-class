@@ -1,3 +1,7 @@
+#### Find your IP
+* sudo nmap -sP $(echo $(hostname -I)|cut -d'.' -f 1-3).*
+* ping 192.168.43.255
+* arp -a
 ## Jetson Nano 安裝及測試
 * [NVIDIA® Jetson Nano 初體驗（一）安裝與測試](https://blog.cavedu.com/2019/06/17/nvida-jetson-nano-setup/)
 * [jetpack SDK](https://developer.nvidia.com/embedded/jetpack)
