@@ -1,3 +1,24 @@
+#### Add wifi connection by command line
+* ex: ssid: myid, key: 12345678
+* nmcli device status # check all connect setting
+<pre>
+DEVICE  TYPE      STATE      CONNECTION
+eth0    ethernet  connected  Wired connection 1
+l4tbr0  bridge    connected  l4tbr0
+dummy0  dummy     unmanaged  --
+rndis0  ethernet  unmanaged  --
+usb0    ethernet  unmanaged  --
+lo      loopback  unmanaged  --
+</pre>
+* nmcli con add con-name myid ifname wlan0 type wifi ssid myid ip4 192.168.43.55/24 gw4 192.168.43.254
+* nmcli con modify myid wifi-sec.key-mgmt wpa-psk
+* nmcli con modify myid wifi-sec.psk 12345678
+* nmcli radio wifi on
+* nmcli con up myid
+* nmcli device status
+* ifconfig
+
+
 #### Find your IP
 * sudo nmap -sP $(echo $(hostname -I)|cut -d'.' -f 1-3).*
 * ping 192.168.43.255
