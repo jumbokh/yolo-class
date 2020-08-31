@@ -16,6 +16,17 @@ lo      loopback  unmanaged  --
 * nmcli radio wifi on
 * nmcli con up myid
 * nmcli device status
+<pre>
+# nmcli device status
+DEVICE  TYPE      STATE      CONNECTION
+eth0    ethernet  connected  Wired connection 1
+l4tbr0  bridge    connected  l4tbr0
+wlan0   wifi      connected  informatics
+dummy0  dummy     unmanaged  --
+rndis0  ethernet  unmanaged  --
+usb0    ethernet  unmanaged  --
+lo      loopback  unmanaged  --
+</pre>
 * ifconfig
 
 
