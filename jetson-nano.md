@@ -1,3 +1,10 @@
+### 使用 usb serial console 連接 jetson nano
+* 以micro-usb線 連接電腦
+![serial](https://github.com/jumbokh/yolo-class/blob/master/images/48576.jpg)
+* 安裝下載 putty
+![putty](https://github.com/jumbokh/yolo-class/blob/master/images/putty.JPG)
+* 開啟串列埠連結
+![putty1](https://github.com/jumbokh/yolo-class/blob/master/images/putty1.JPG)
 #### Add wifi connection by command line
 * ex: ssid: myid, key: 12345678
 * nmcli device status # check all connect setting
