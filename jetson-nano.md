@@ -28,8 +28,6 @@ usb0    ethernet  unmanaged  --
 lo      loopback  unmanaged  --
 </pre>
 * ifconfig
-
-
 #### Find your IP
 * sudo nmap -sP $(echo $(hostname -I)|cut -d'.' -f 1-3).*
 * ping 192.168.43.255
