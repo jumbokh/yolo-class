@@ -57,7 +57,8 @@ lo      loopback  unmanaged  --
 ##
 ### Install tensorflow 2.0
 * [Installing TensorFlow For Jetson Platform](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html) 
-* [doc]()
+* [doc](https://github.com/jumbokh/yolo-class/blob/master/doc/Install-TensorFlow-Jetson-Platform.pdf)
+##
     * jumbo@jumbo-nano:~/jetsonUtilities$ python ./jetsonInfo.py 
  <pre>
  NVIDIA Jetson TX1
