@@ -55,6 +55,9 @@ lo      loopback  unmanaged  --
  Cuda compilation tools, release 10.2, V10.2.89
  </pre>
 ##
+### Install tensorflow 2.0
+* [Installing TensorFlow For Jetson Platform](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html) 
+* [doc]()
     * jumbo@jumbo-nano:~/jetsonUtilities$ python ./jetsonInfo.py 
  <pre>
  NVIDIA Jetson TX1
